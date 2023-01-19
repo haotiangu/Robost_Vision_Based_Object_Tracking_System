@@ -1,0 +1,360 @@
+2023-01-07 22:43:15,498 - 	Denoised 5 frames in 3.237s, loaded seq in 17.012s
+2023-01-07 22:43:15,904 - 	PSNR noisy 27.3765dB, PSNR result 27.5756dB
+2023-01-07 22:43:17,938 - 	Denoised 5 frames in 0.471s, loaded seq in 18.593s
+2023-01-07 22:43:17,939 - 	PSNR noisy 32.3802dB, PSNR result 32.7808dB
+2023-01-07 22:43:18,600 - 	Denoised 5 frames in 0.525s, loaded seq in 18.611s
+2023-01-07 22:43:18,600 - 	PSNR noisy 53.5540dB, PSNR result 41.0303dB
+2023-01-07 22:43:19,244 - 	Denoised 5 frames in 0.493s, loaded seq in 18.609s
+2023-01-07 22:43:19,244 - 	PSNR noisy 53.5540dB, PSNR result 41.0303dB
+2023-01-07 22:43:19,712 - 	Denoised 5 frames in 0.359s, loaded seq in 18.618s
+2023-01-07 22:43:19,712 - 	PSNR noisy 53.5540dB, PSNR result 41.0303dB
+2023-01-07 22:43:20,218 - 	Denoised 5 frames in 0.370s, loaded seq in 18.618s
+2023-01-07 22:43:20,218 - 	PSNR noisy 53.5540dB, PSNR result 41.0303dB
+2023-01-07 22:43:20,732 - 	Denoised 5 frames in 0.380s, loaded seq in 18.616s
+2023-01-07 22:43:20,732 - 	PSNR noisy 53.5540dB, PSNR result 41.0303dB
+2023-01-07 22:43:21,306 - 	Denoised 5 frames in 0.461s, loaded seq in 18.615s
+2023-01-07 22:43:21,306 - 	PSNR noisy 53.5540dB, PSNR result 41.0303dB
+2023-01-07 22:43:21,787 - 	Denoised 5 frames in 0.392s, loaded seq in 18.622s
+2023-01-07 22:43:21,787 - 	PSNR noisy 56.9513dB, PSNR result 43.5240dB
+2023-01-07 22:43:22,271 - 	Denoised 5 frames in 0.372s, loaded seq in 18.604s
+2023-01-07 22:43:22,272 - 	PSNR noisy 58.2454dB, PSNR result 43.8334dB
+2023-01-07 22:43:22,745 - 	Denoised 5 frames in 0.356s, loaded seq in 18.620s
+2023-01-07 22:43:22,745 - 	PSNR noisy 57.8052dB, PSNR result 43.7525dB
+2023-01-07 22:43:23,220 - 	Denoised 5 frames in 0.369s, loaded seq in 18.615s
+2023-01-07 22:43:23,220 - 	PSNR noisy 56.5847dB, PSNR result 43.3401dB
+2023-01-07 22:43:23,697 - 	Denoised 5 frames in 0.359s, loaded seq in 18.619s
+2023-01-07 22:43:23,697 - 	PSNR noisy 56.2593dB, PSNR result 43.0982dB
+2023-01-07 22:43:24,162 - 	Denoised 5 frames in 0.376s, loaded seq in 18.620s
+2023-01-07 22:43:24,162 - 	PSNR noisy 57.1169dB, PSNR result 43.5651dB
+2023-01-07 22:43:24,629 - 	Denoised 5 frames in 0.361s, loaded seq in 18.618s
+2023-01-07 22:43:24,629 - 	PSNR noisy 56.9900dB, PSNR result 43.4947dB
+2023-01-07 22:43:25,208 - 	Denoised 5 frames in 0.422s, loaded seq in 18.610s
+2023-01-07 22:43:25,208 - 	PSNR noisy 57.1096dB, PSNR result 43.4813dB
+2023-01-07 22:43:25,731 - 	Denoised 5 frames in 0.390s, loaded seq in 18.605s
+2023-01-07 22:43:25,731 - 	PSNR noisy 56.1537dB, PSNR result 42.8720dB
+2023-01-07 22:43:26,243 - 	Denoised 5 frames in 0.410s, loaded seq in 18.619s
+2023-01-07 22:43:26,244 - 	PSNR noisy 56.2354dB, PSNR result 42.9985dB
+2023-01-07 22:43:26,863 - 	Denoised 5 frames in 0.463s, loaded seq in 18.612s
+2023-01-07 22:43:26,864 - 	PSNR noisy 57.1797dB, PSNR result 43.5819dB
+2023-01-07 22:43:27,441 - 	Denoised 5 frames in 0.476s, loaded seq in 18.617s
+2023-01-07 22:43:27,441 - 	PSNR noisy 34.6595dB, PSNR result 35.3445dB
+2023-01-07 22:43:28,059 - 	Denoised 5 frames in 0.482s, loaded seq in 18.618s
+2023-01-07 22:43:28,059 - 	PSNR noisy 55.3169dB, PSNR result 42.6173dB
+2023-01-07 22:43:28,691 - 	Denoised 5 frames in 0.491s, loaded seq in 18.608s
+2023-01-07 22:43:28,692 - 	PSNR noisy 55.5339dB, PSNR result 42.4664dB
+2023-01-07 22:43:29,429 - 	Denoised 5 frames in 0.639s, loaded seq in 18.620s
+2023-01-07 22:43:29,429 - 	PSNR noisy 57.9089dB, PSNR result 44.1760dB
+2023-01-07 22:43:29,902 - 	Denoised 5 frames in 0.367s, loaded seq in 18.619s
+2023-01-07 22:43:29,902 - 	PSNR noisy 55.9146dB, PSNR result 42.8635dB
+2023-01-07 22:43:30,548 - 	Denoised 5 frames in 0.561s, loaded seq in 18.621s
+2023-01-07 22:43:30,549 - 	PSNR noisy 56.3769dB, PSNR result 43.1921dB
+2023-01-07 22:43:31,325 - 	Denoised 5 frames in 0.666s, loaded seq in 18.616s
+2023-01-07 22:43:31,326 - 	PSNR noisy 57.6004dB, PSNR result 44.0510dB
+2023-01-07 22:43:31,951 - 	Denoised 5 frames in 0.478s, loaded seq in 18.589s
+2023-01-07 22:43:31,951 - 	PSNR noisy 50.7221dB, PSNR result 43.5681dB
+2023-01-07 22:43:32,464 - 	Denoised 5 frames in 0.387s, loaded seq in 18.620s
+2023-01-07 22:43:32,465 - 	PSNR noisy 50.7112dB, PSNR result 43.4857dB
+2023-01-07 22:43:32,894 - 	Denoised 5 frames in 0.353s, loaded seq in 18.620s
+2023-01-07 22:43:32,895 - 	PSNR noisy 50.7112dB, PSNR result 43.4857dB
+2023-01-07 22:43:33,706 - 	Denoised 5 frames in 0.707s, loaded seq in 18.617s
+2023-01-07 22:43:33,707 - 	PSNR noisy 50.7112dB, PSNR result 43.4857dB
+2023-01-07 22:43:34,748 - 	Denoised 5 frames in 0.772s, loaded seq in 18.612s
+2023-01-07 22:43:34,748 - 	PSNR noisy 12.3054dB, PSNR result 12.3052dB
+2023-01-07 22:43:35,417 - 	Denoised 5 frames in 0.499s, loaded seq in 18.613s
+2023-01-07 22:43:35,418 - 	PSNR noisy 50.8400dB, PSNR result 43.7193dB
+2023-01-07 22:43:36,039 - 	Denoised 5 frames in 0.512s, loaded seq in 18.619s
+2023-01-07 22:43:36,039 - 	PSNR noisy 14.0017dB, PSNR result 14.0046dB
+2023-01-07 22:43:36,627 - 	Denoised 5 frames in 0.492s, loaded seq in 18.621s
+2023-01-07 22:43:36,627 - 	PSNR noisy 12.9020dB, PSNR result 12.9040dB
+2023-01-07 22:43:37,081 - 	Denoised 5 frames in 0.360s, loaded seq in 18.620s
+2023-01-07 22:43:37,081 - 	PSNR noisy 11.9495dB, PSNR result 11.9509dB
+2023-01-07 22:43:37,518 - 	Denoised 5 frames in 0.352s, loaded seq in 18.621s
+2023-01-07 22:43:37,518 - 	PSNR noisy 11.9495dB, PSNR result 11.9509dB
+2023-01-07 22:43:38,035 - 	Denoised 5 frames in 0.425s, loaded seq in 18.621s
+2023-01-07 22:43:38,035 - 	PSNR noisy 11.9495dB, PSNR result 11.9509dB
+2023-01-07 22:43:38,929 - 	Denoised 5 frames in 0.740s, loaded seq in 18.601s
+2023-01-07 22:43:38,929 - 	PSNR noisy 49.3703dB, PSNR result 40.0651dB
+2023-01-07 22:43:39,616 - 	Denoised 5 frames in 0.513s, loaded seq in 18.614s
+2023-01-07 22:43:39,616 - 	PSNR noisy 49.7515dB, PSNR result 39.0414dB
+2023-01-07 22:43:40,076 - 	Denoised 5 frames in 0.367s, loaded seq in 18.622s
+2023-01-07 22:43:40,076 - 	PSNR noisy 49.7848dB, PSNR result 39.1619dB
+2023-01-07 22:43:42,520 - 	Denoised 5 frames in 0.790s, loaded seq in 18.611s
+2023-01-07 22:43:42,520 - 	PSNR noisy 10.8950dB, PSNR result 10.9124dB
+2023-01-07 22:43:43,441 - 	Denoised 5 frames in 0.726s, loaded seq in 18.615s
+2023-01-07 22:43:43,450 - 	PSNR noisy 15.9516dB, PSNR result 16.0057dB
+2023-01-07 22:43:44,176 - 	Denoised 5 frames in 0.509s, loaded seq in 18.605s
+2023-01-07 22:43:44,176 - 	PSNR noisy 46.4630dB, PSNR result 36.0578dB
+2023-01-07 22:43:44,811 - 	Denoised 5 frames in 0.461s, loaded seq in 18.605s
+2023-01-07 22:43:44,811 - 	PSNR noisy 38.1188dB, PSNR result 32.0922dB
+2023-01-07 22:43:45,381 - 	Denoised 5 frames in 0.440s, loaded seq in 18.608s
+2023-01-07 22:43:45,381 - 	PSNR noisy 16.8783dB, PSNR result 17.0005dB
+2023-01-07 22:43:46,416 - 	Denoised 5 frames in 0.813s, loaded seq in 18.565s
+2023-01-07 22:43:46,416 - 	PSNR noisy 38.1384dB, PSNR result 32.6250dB
+2023-01-07 22:43:47,272 - 	Denoised 5 frames in 0.718s, loaded seq in 18.612s
+2023-01-07 22:43:47,272 - 	PSNR noisy 18.5357dB, PSNR result 18.7464dB
+2023-01-07 22:43:47,878 - 	Denoised 5 frames in 0.521s, loaded seq in 18.620s
+2023-01-07 22:43:47,878 - 	PSNR noisy 9.7385dB, PSNR result 9.7502dB
+2023-01-07 22:43:48,460 - 	Denoised 5 frames in 0.489s, loaded seq in 18.618s
+2023-01-07 22:43:49,989 - 	PSNR noisy 12.2532dB, PSNR result 12.2772dB
+2023-01-07 22:43:50,884 - 	Denoised 5 frames in 0.721s, loaded seq in 18.601s
+2023-01-07 22:43:50,884 - 	PSNR noisy 8.9807dB, PSNR result 8.9827dB
+2023-01-07 22:43:51,894 - 	Denoised 5 frames in 0.797s, loaded seq in 18.617s
+2023-01-07 22:43:51,894 - 	PSNR noisy 7.8237dB, PSNR result 7.8264dB
+2023-01-07 22:43:52,562 - 	Denoised 5 frames in 0.523s, loaded seq in 18.599s
+2023-01-07 22:43:52,562 - 	PSNR noisy 8.3668dB, PSNR result 8.3746dB
+2023-01-07 22:43:53,172 - 	Denoised 5 frames in 0.464s, loaded seq in 18.616s
+2023-01-07 22:43:53,172 - 	PSNR noisy 8.3250dB, PSNR result 8.3312dB
+2023-01-07 22:43:53,775 - 	Denoised 5 frames in 0.474s, loaded seq in 18.618s
+2023-01-07 22:43:53,776 - 	PSNR noisy 8.0862dB, PSNR result 8.0885dB
+2023-01-07 22:43:54,346 - 	Denoised 5 frames in 0.463s, loaded seq in 18.617s
+2023-01-07 22:43:54,346 - 	PSNR noisy 7.9869dB, PSNR result 7.9870dB
+2023-01-07 22:43:54,916 - 	Denoised 5 frames in 0.464s, loaded seq in 18.618s
+2023-01-07 22:43:54,916 - 	PSNR noisy 7.7607dB, PSNR result 7.7566dB
+2023-01-07 22:43:55,747 - 	Denoised 5 frames in 0.729s, loaded seq in 18.620s
+2023-01-07 22:43:57,186 - 	PSNR noisy 7.4700dB, PSNR result 7.4627dB
+2023-01-07 22:43:58,000 - 	Denoised 5 frames in 0.659s, loaded seq in 18.613s
+2023-01-07 22:43:58,000 - 	PSNR noisy 8.0115dB, PSNR result 8.0050dB
+2023-01-07 22:43:58,903 - 	Denoised 5 frames in 0.773s, loaded seq in 18.609s
+2023-01-07 22:43:58,903 - 	PSNR noisy 6.7209dB, PSNR result 6.7119dB
+2023-01-07 22:43:59,635 - 	Denoised 5 frames in 0.608s, loaded seq in 18.608s
+2023-01-07 22:43:59,635 - 	PSNR noisy 6.4370dB, PSNR result 6.4326dB
+2023-01-07 22:44:03,335 - 	Denoised 5 frames in 0.816s, loaded seq in 18.603s
+2023-01-07 22:44:03,644 - 	PSNR noisy 7.5287dB, PSNR result 7.5327dB
+2023-01-07 22:44:04,398 - 	Denoised 5 frames in 0.634s, loaded seq in 18.601s
+2023-01-07 22:44:04,398 - 	PSNR noisy 40.8001dB, PSNR result 32.7037dB
+2023-01-07 22:44:04,874 - 	Denoised 5 frames in 0.375s, loaded seq in 18.614s
+2023-01-07 22:44:04,875 - 	PSNR noisy 40.3490dB, PSNR result 32.5561dB
+2023-01-07 22:44:05,318 - 	Denoised 5 frames in 0.357s, loaded seq in 18.614s
+2023-01-07 22:44:05,318 - 	PSNR noisy 40.3490dB, PSNR result 32.5561dB
+2023-01-07 22:44:05,755 - 	Denoised 5 frames in 0.351s, loaded seq in 18.621s
+2023-01-07 22:44:05,755 - 	PSNR noisy 40.3490dB, PSNR result 32.5561dB
+2023-01-07 22:44:06,762 - 	Denoised 5 frames in 0.805s, loaded seq in 18.588s
+2023-01-07 22:44:06,762 - 	PSNR noisy 40.3490dB, PSNR result 32.5561dB
+2023-01-07 22:44:07,643 - 	Denoised 5 frames in 0.712s, loaded seq in 18.601s
+2023-01-07 22:44:07,643 - 	PSNR noisy 43.6043dB, PSNR result 33.1930dB
+2023-01-07 22:44:08,266 - 	Denoised 5 frames in 0.509s, loaded seq in 18.608s
+2023-01-07 22:44:08,266 - 	PSNR noisy 8.0300dB, PSNR result 8.0460dB
+2023-01-07 22:44:08,838 - 	Denoised 5 frames in 0.462s, loaded seq in 18.618s
+2023-01-07 22:44:10,822 - 	PSNR noisy 12.3765dB, PSNR result 12.4209dB
+2023-01-07 22:44:11,531 - 	Denoised 5 frames in 0.519s, loaded seq in 18.607s
+2023-01-07 22:44:12,394 - 	PSNR noisy 21.3259dB, PSNR result 21.5657dB
+2023-01-07 22:44:14,088 - 	Denoised 5 frames in 0.773s, loaded seq in 18.587s
+2023-01-07 22:44:14,088 - 	PSNR noisy 12.8113dB, PSNR result 12.8688dB
+2023-01-07 22:44:15,024 - 	Denoised 5 frames in 0.838s, loaded seq in 18.618s
+2023-01-07 22:44:15,024 - 	PSNR noisy 42.4613dB, PSNR result 33.8178dB
+2023-01-07 22:44:15,678 - 	Denoised 5 frames in 0.549s, loaded seq in 18.621s
+2023-01-07 22:44:15,678 - 	PSNR noisy 11.6838dB, PSNR result 11.7073dB
+2023-01-07 22:44:16,287 - 	Denoised 5 frames in 0.474s, loaded seq in 18.615s
+2023-01-07 22:44:16,288 - 	PSNR noisy 16.2155dB, PSNR result 16.2405dB
+2023-01-07 22:44:17,062 - 	Denoised 5 frames in 0.636s, loaded seq in 18.618s
+2023-01-07 22:44:17,062 - 	PSNR noisy 16.1756dB, PSNR result 16.2009dB
+2023-01-07 22:44:18,002 - 	Denoised 5 frames in 0.764s, loaded seq in 18.588s
+2023-01-07 22:44:18,003 - 	PSNR noisy 16.6733dB, PSNR result 16.7435dB
+2023-01-07 22:44:18,840 - 	Denoised 5 frames in 0.623s, loaded seq in 18.596s
+2023-01-07 22:44:18,840 - 	PSNR noisy 40.2682dB, PSNR result 33.4305dB
+2023-01-07 22:44:19,446 - 	Denoised 5 frames in 0.510s, loaded seq in 18.622s
+2023-01-07 22:44:19,446 - 	PSNR noisy 17.6462dB, PSNR result 17.7399dB
+2023-01-07 22:44:20,079 - 	Denoised 5 frames in 0.505s, loaded seq in 18.614s
+2023-01-07 22:44:20,080 - 	PSNR noisy 15.4104dB, PSNR result 15.4691dB
+2023-01-07 22:44:21,053 - 	Denoised 5 frames in 0.809s, loaded seq in 18.606s
+2023-01-07 22:44:21,053 - 	PSNR noisy 10.6016dB, PSNR result 10.6522dB
+2023-01-07 22:44:22,069 - 	Denoised 5 frames in 0.831s, loaded seq in 18.620s
+2023-01-07 22:44:22,070 - 	PSNR noisy 14.5870dB, PSNR result 14.6377dB
+2023-01-07 22:44:22,687 - 	Denoised 5 frames in 0.469s, loaded seq in 18.619s
+2023-01-07 22:44:22,687 - 	PSNR noisy 41.8027dB, PSNR result 33.5212dB
+2023-01-07 22:44:23,271 - 	Denoised 5 frames in 0.464s, loaded seq in 18.613s
+2023-01-07 22:44:23,272 - 	PSNR noisy 12.0588dB, PSNR result 12.0914dB
+2023-01-07 22:44:23,908 - 	Denoised 5 frames in 0.520s, loaded seq in 18.616s
+2023-01-07 22:44:23,909 - 	PSNR noisy 11.2980dB, PSNR result 11.3229dB
+2023-01-07 22:44:24,765 - 	Denoised 5 frames in 0.761s, loaded seq in 18.620s
+2023-01-07 22:44:24,765 - 	PSNR noisy 16.4339dB, PSNR result 16.4983dB
+2023-01-07 22:44:25,678 - 	Denoised 5 frames in 0.791s, loaded seq in 18.601s
+2023-01-07 22:44:25,678 - 	PSNR noisy 18.1456dB, PSNR result 18.2517dB
+2023-01-07 22:44:26,283 - 	Denoised 5 frames in 0.479s, loaded seq in 18.605s
+2023-01-07 22:44:26,283 - 	PSNR noisy 20.1294dB, PSNR result 20.3195dB
+2023-01-07 22:44:26,938 - 	Denoised 5 frames in 0.487s, loaded seq in 18.610s
+2023-01-07 22:44:26,938 - 	PSNR noisy 15.9164dB, PSNR result 15.9851dB
+2023-01-07 22:44:27,606 - 	Denoised 5 frames in 0.512s, loaded seq in 18.620s
+2023-01-07 22:44:27,606 - 	PSNR noisy 16.6259dB, PSNR result 16.7028dB
+2023-01-07 22:44:28,248 - 	Denoised 5 frames in 0.489s, loaded seq in 18.564s
+2023-01-07 22:44:28,248 - 	PSNR noisy 14.9857dB, PSNR result 15.0433dB
+2023-01-07 22:44:29,591 - 	Denoised 5 frames in 0.752s, loaded seq in 18.584s
+2023-01-07 22:44:29,591 - 	PSNR noisy 11.4424dB, PSNR result 11.4717dB
+2023-01-07 22:44:30,573 - 	Denoised 5 frames in 0.761s, loaded seq in 18.571s
+2023-01-07 22:44:30,573 - 	PSNR noisy 43.6166dB, PSNR result 34.6341dB
+2023-01-07 22:44:31,183 - 	Denoised 5 frames in 0.474s, loaded seq in 18.612s
+2023-01-07 22:44:31,183 - 	PSNR noisy 43.5069dB, PSNR result 34.5334dB
+2023-01-07 22:44:31,819 - 	Denoised 5 frames in 0.451s, loaded seq in 18.619s
+2023-01-07 22:44:31,820 - 	PSNR noisy 13.4615dB, PSNR result 13.5014dB
+2023-01-07 22:44:32,733 - 	Denoised 5 frames in 0.776s, loaded seq in 18.620s
+2023-01-07 22:44:32,733 - 	PSNR noisy 44.0028dB, PSNR result 34.7163dB
+2023-01-07 22:44:33,654 - 	Denoised 5 frames in 0.745s, loaded seq in 18.599s
+2023-01-07 22:44:33,654 - 	PSNR noisy 24.0370dB, PSNR result 24.3562dB
+2023-01-07 22:44:34,244 - 	Denoised 5 frames in 0.487s, loaded seq in 18.618s
+2023-01-07 22:44:34,244 - 	PSNR noisy 43.1281dB, PSNR result 34.1068dB
+2023-01-07 22:44:34,868 - 	Denoised 5 frames in 0.463s, loaded seq in 18.621s
+2023-01-07 22:44:34,868 - 	PSNR noisy 18.0057dB, PSNR result 18.1088dB
+2023-01-07 22:44:35,468 - 	Denoised 5 frames in 0.476s, loaded seq in 18.616s
+2023-01-07 22:44:35,468 - 	PSNR noisy 14.1213dB, PSNR result 14.1678dB
+2023-01-07 22:44:36,065 - 	Denoised 5 frames in 0.472s, loaded seq in 18.618s
+2023-01-07 22:44:36,066 - 	PSNR noisy 11.8032dB, PSNR result 11.8384dB
+2023-01-07 22:44:37,689 - 	Denoised 5 frames in 0.794s, loaded seq in 18.601s
+2023-01-07 22:44:37,689 - 	PSNR noisy 10.7304dB, PSNR result 10.7651dB
+2023-01-07 22:44:38,663 - 	Denoised 5 frames in 0.759s, loaded seq in 18.584s
+2023-01-07 22:44:38,664 - 	PSNR noisy 45.4520dB, PSNR result 35.7496dB
+2023-01-07 22:44:39,323 - 	Denoised 5 frames in 0.494s, loaded seq in 18.617s
+2023-01-07 22:44:39,323 - 	PSNR noisy 16.1856dB, PSNR result 16.2497dB
+2023-01-07 22:44:40,001 - 	Denoised 5 frames in 0.553s, loaded seq in 18.615s
+2023-01-07 22:44:40,001 - 	PSNR noisy 14.4019dB, PSNR result 14.4477dB
+2023-01-07 22:44:40,950 - 	Denoised 5 frames in 0.774s, loaded seq in 18.587s
+2023-01-07 22:44:40,951 - 	PSNR noisy 13.5451dB, PSNR result 13.5630dB
+2023-01-07 22:44:41,875 - 	Denoised 5 frames in 0.802s, loaded seq in 18.614s
+2023-01-07 22:44:41,876 - 	PSNR noisy 43.1397dB, PSNR result 33.9373dB
+2023-01-07 22:44:42,601 - 	Denoised 5 frames in 0.612s, loaded seq in 18.608s
+2023-01-07 22:44:42,601 - 	PSNR noisy 19.5087dB, PSNR result 19.6794dB
+2023-01-07 22:44:43,480 - 	Denoised 5 frames in 0.780s, loaded seq in 18.618s
+2023-01-07 22:44:43,480 - 	PSNR noisy 17.7051dB, PSNR result 17.8202dB
+2023-01-07 22:44:44,311 - 	Denoised 5 frames in 0.721s, loaded seq in 18.611s
+2023-01-07 22:44:44,312 - 	PSNR noisy 15.1884dB, PSNR result 15.2462dB
+2023-01-07 22:44:44,924 - 	Denoised 5 frames in 0.511s, loaded seq in 18.616s
+2023-01-07 22:44:44,924 - 	PSNR noisy 15.7806dB, PSNR result 15.8425dB
+2023-01-07 22:44:48,244 - 	Denoised 5 frames in 0.799s, loaded seq in 18.575s
+2023-01-07 22:44:48,244 - 	PSNR noisy 10.6693dB, PSNR result 10.7052dB
+2023-01-07 22:44:49,191 - 	Denoised 5 frames in 0.693s, loaded seq in 18.578s
+2023-01-07 22:44:49,191 - 	PSNR noisy 45.2825dB, PSNR result 34.7498dB
+2023-01-07 22:44:49,759 - 	Denoised 5 frames in 0.444s, loaded seq in 18.604s
+2023-01-07 22:44:49,759 - 	PSNR noisy 45.3193dB, PSNR result 34.8084dB
+2023-01-07 22:44:50,328 - 	Denoised 5 frames in 0.472s, loaded seq in 18.620s
+2023-01-07 22:44:50,328 - 	PSNR noisy 17.0898dB, PSNR result 17.1692dB
+2023-01-07 22:44:50,978 - 	Denoised 5 frames in 0.507s, loaded seq in 18.609s
+2023-01-07 22:44:50,978 - 	PSNR noisy 15.7673dB, PSNR result 15.7884dB
+2023-01-07 22:44:51,619 - 	Denoised 5 frames in 0.475s, loaded seq in 18.605s
+2023-01-07 22:44:51,619 - 	PSNR noisy 13.6778dB, PSNR result 13.7165dB
+2023-01-07 22:44:52,280 - 	Denoised 5 frames in 0.498s, loaded seq in 18.616s
+2023-01-07 22:44:52,280 - 	PSNR noisy 11.5163dB, PSNR result 11.5483dB
+2023-01-07 22:44:52,896 - 	Denoised 5 frames in 0.509s, loaded seq in 18.621s
+2023-01-07 22:44:54,830 - 	PSNR noisy 11.2914dB, PSNR result 11.3136dB
+2023-01-07 22:44:55,613 - 	Denoised 5 frames in 0.656s, loaded seq in 18.611s
+2023-01-07 22:44:55,613 - 	PSNR noisy 7.5837dB, PSNR result 7.6147dB
+2023-01-07 22:44:56,531 - 	Denoised 5 frames in 0.799s, loaded seq in 18.618s
+2023-01-07 22:44:56,531 - 	PSNR noisy 15.6092dB, PSNR result 15.6666dB
+2023-01-07 22:44:57,369 - 	Denoised 5 frames in 0.505s, loaded seq in 18.604s
+2023-01-07 22:44:57,369 - 	PSNR noisy 45.7824dB, PSNR result 35.2500dB
+2023-01-07 22:44:57,986 - 	Denoised 5 frames in 0.505s, loaded seq in 18.617s
+2023-01-07 22:44:57,986 - 	PSNR noisy 17.9389dB, PSNR result 18.0426dB
+2023-01-07 22:44:58,631 - 	Denoised 5 frames in 0.512s, loaded seq in 18.614s
+2023-01-07 22:44:58,631 - 	PSNR noisy 11.9839dB, PSNR result 12.0128dB
+2023-01-07 22:44:59,186 - 	Denoised 5 frames in 0.449s, loaded seq in 18.618s
+2023-01-07 22:44:59,186 - 	PSNR noisy 12.5034dB, PSNR result 12.5350dB
+2023-01-07 22:44:59,739 - 	Denoised 5 frames in 0.451s, loaded seq in 18.617s
+2023-01-07 22:44:59,740 - 	PSNR noisy 10.4470dB, PSNR result 10.4544dB
+2023-01-07 22:45:00,654 - 	Denoised 5 frames in 0.745s, loaded seq in 18.589s
+2023-01-07 22:45:00,654 - 	PSNR noisy 9.6877dB, PSNR result 9.7015dB
+2023-01-07 22:45:01,558 - 	Denoised 5 frames in 0.762s, loaded seq in 18.613s
+2023-01-07 22:45:01,558 - 	PSNR noisy 50.4462dB, PSNR result 39.0428dB
+2023-01-07 22:45:02,275 - 	Denoised 5 frames in 0.521s, loaded seq in 18.601s
+2023-01-07 22:45:02,276 - 	PSNR noisy 52.2247dB, PSNR result 40.5628dB
+2023-01-07 22:45:02,871 - 	Denoised 5 frames in 0.437s, loaded seq in 18.617s
+2023-01-07 22:45:02,871 - 	PSNR noisy 11.5056dB, PSNR result 11.5169dB
+2023-01-07 22:45:03,454 - 	Denoised 5 frames in 0.477s, loaded seq in 18.616s
+2023-01-07 22:45:03,455 - 	PSNR noisy 8.9565dB, PSNR result 8.9683dB
+2023-01-07 22:45:05,637 - 	Denoised 5 frames in 0.750s, loaded seq in 18.605s
+2023-01-07 22:45:05,637 - 	PSNR noisy 10.5175dB, PSNR result 10.5330dB
+2023-01-07 22:45:06,421 - 	Denoised 5 frames in 0.664s, loaded seq in 18.613s
+2023-01-07 22:45:06,421 - 	PSNR noisy 40.9276dB, PSNR result 32.7075dB
+2023-01-07 22:45:06,940 - 	Denoised 5 frames in 0.411s, loaded seq in 18.619s
+2023-01-07 22:45:06,940 - 	PSNR noisy 40.8808dB, PSNR result 32.7050dB
+2023-01-07 22:45:07,649 - 	Denoised 5 frames in 0.619s, loaded seq in 18.620s
+2023-01-07 22:45:07,650 - 	PSNR noisy 40.8279dB, PSNR result 32.6981dB
+2023-01-07 22:45:08,452 - 	Denoised 5 frames in 0.679s, loaded seq in 18.621s
+2023-01-07 22:45:08,452 - 	PSNR noisy 41.6562dB, PSNR result 32.8926dB
+2023-01-07 22:45:09,011 - 	Denoised 5 frames in 0.408s, loaded seq in 18.596s
+2023-01-07 22:45:09,011 - 	PSNR noisy 43.2254dB, PSNR result 33.4637dB
+2023-01-07 22:45:09,526 - 	Denoised 5 frames in 0.381s, loaded seq in 18.613s
+2023-01-07 22:45:09,526 - 	PSNR noisy 43.2254dB, PSNR result 33.4637dB
+2023-01-07 22:45:10,079 - 	Denoised 5 frames in 0.399s, loaded seq in 18.610s
+2023-01-07 22:45:10,079 - 	PSNR noisy 43.2254dB, PSNR result 33.4637dB
+2023-01-07 22:45:10,596 - 	Denoised 5 frames in 0.375s, loaded seq in 18.615s
+2023-01-07 22:45:11,587 - 	PSNR noisy 43.2254dB, PSNR result 33.4637dB
+2023-01-07 22:45:12,702 - 	Denoised 5 frames in 0.865s, loaded seq in 18.565s
+2023-01-07 22:45:12,702 - 	PSNR noisy 43.2254dB, PSNR result 33.4637dB
+2023-01-07 22:45:13,453 - 	Denoised 5 frames in 0.622s, loaded seq in 18.617s
+2023-01-07 22:45:13,453 - 	PSNR noisy 43.9822dB, PSNR result 34.4389dB
+2023-01-07 22:45:13,925 - 	Denoised 5 frames in 0.376s, loaded seq in 18.618s
+2023-01-07 22:45:13,926 - 	PSNR noisy 43.9822dB, PSNR result 34.4389dB
+2023-01-07 22:45:14,536 - 	Denoised 5 frames in 0.460s, loaded seq in 18.604s
+2023-01-07 22:45:14,536 - 	PSNR noisy 9.6238dB, PSNR result 9.6590dB
+2023-01-07 22:45:15,115 - 	Denoised 5 frames in 0.451s, loaded seq in 18.622s
+2023-01-07 22:45:15,115 - 	PSNR noisy 9.6928dB, PSNR result 9.7292dB
+2023-01-07 22:45:15,886 - 	Denoised 5 frames in 0.635s, loaded seq in 18.603s
+2023-01-07 22:45:15,886 - 	PSNR noisy 9.6483dB, PSNR result 9.6839dB
+2023-01-07 22:45:16,652 - 	Denoised 5 frames in 0.674s, loaded seq in 18.620s
+2023-01-07 22:45:16,652 - 	PSNR noisy 45.7331dB, PSNR result 35.7977dB
+2023-01-07 22:45:17,294 - 	Denoised 5 frames in 0.497s, loaded seq in 18.610s
+2023-01-07 22:45:18,690 - 	PSNR noisy 45.7207dB, PSNR result 35.7960dB
+2023-01-07 22:45:19,331 - 	Denoised 5 frames in 0.512s, loaded seq in 18.614s
+2023-01-07 22:45:19,331 - 	PSNR noisy 10.8981dB, PSNR result 10.9454dB
+2023-01-07 22:45:20,304 - 	Denoised 5 frames in 0.809s, loaded seq in 18.610s
+2023-01-07 22:45:20,304 - 	PSNR noisy 44.3653dB, PSNR result 34.3010dB
+2023-01-07 22:45:21,215 - 	Denoised 5 frames in 0.738s, loaded seq in 18.588s
+2023-01-07 22:45:21,215 - 	PSNR noisy 13.3257dB, PSNR result 13.4037dB
+2023-01-07 22:45:23,547 - 	Denoised 5 frames in 0.814s, loaded seq in 18.600s
+2023-01-07 22:45:23,548 - 	PSNR noisy 8.9163dB, PSNR result 8.9833dB
+2023-01-07 22:45:24,490 - 	Denoised 5 frames in 0.801s, loaded seq in 18.619s
+2023-01-07 22:45:24,490 - 	PSNR noisy 16.3522dB, PSNR result 16.4293dB
+2023-01-07 22:45:25,109 - 	Denoised 5 frames in 0.491s, loaded seq in 18.606s
+2023-01-07 22:45:25,109 - 	PSNR noisy 45.9065dB, PSNR result 34.7987dB
+2023-01-07 22:45:26,079 - 	Denoised 5 frames in 0.788s, loaded seq in 18.595s
+2023-01-07 22:45:26,079 - 	PSNR noisy 45.5296dB, PSNR result 34.6105dB
+2023-01-07 22:45:27,017 - 	Denoised 5 frames in 0.762s, loaded seq in 18.602s
+2023-01-07 22:45:27,017 - 	PSNR noisy 15.6676dB, PSNR result 15.7365dB
+2023-01-07 22:45:27,690 - 	Denoised 5 frames in 0.543s, loaded seq in 18.618s
+2023-01-07 22:45:27,690 - 	PSNR noisy 13.0458dB, PSNR result 13.0812dB
+2023-01-07 22:45:28,324 - 	Denoised 5 frames in 0.504s, loaded seq in 18.608s
+2023-01-07 22:45:28,325 - 	PSNR noisy 14.4404dB, PSNR result 14.4856dB
+2023-01-07 22:45:29,268 - 	Denoised 5 frames in 0.797s, loaded seq in 18.605s
+2023-01-07 22:45:29,268 - 	PSNR noisy 14.0669dB, PSNR result 14.1050dB
+2023-01-07 22:45:30,260 - 	Denoised 5 frames in 0.798s, loaded seq in 18.616s
+2023-01-07 22:45:30,260 - 	PSNR noisy 47.1048dB, PSNR result 36.2316dB
+2023-01-07 22:45:30,880 - 	Denoised 5 frames in 0.437s, loaded seq in 18.592s
+2023-01-07 22:45:31,745 - 	PSNR noisy 18.5770dB, PSNR result 18.6842dB
+2023-01-07 22:45:32,560 - 	Denoised 5 frames in 0.611s, loaded seq in 18.604s
+2023-01-07 22:45:32,561 - 	PSNR noisy 44.7820dB, PSNR result 34.5699dB
+2023-01-07 22:45:33,378 - 	Denoised 5 frames in 0.665s, loaded seq in 18.621s
+2023-01-07 22:45:33,378 - 	PSNR noisy 44.8621dB, PSNR result 34.6388dB
+2023-01-07 22:45:34,199 - 	Denoised 5 frames in 0.669s, loaded seq in 18.607s
+2023-01-07 22:45:34,199 - 	PSNR noisy 44.4952dB, PSNR result 34.3715dB
+2023-01-07 22:45:35,021 - 	Denoised 5 frames in 0.654s, loaded seq in 18.623s
+2023-01-07 22:45:35,021 - 	PSNR noisy 46.4790dB, PSNR result 35.5991dB
+2023-01-07 22:45:35,546 - 	Denoised 5 frames in 0.408s, loaded seq in 18.620s
+2023-01-07 22:45:35,547 - 	PSNR noisy 46.5024dB, PSNR result 35.6110dB
+2023-01-07 22:45:36,265 - 	Denoised 5 frames in 0.577s, loaded seq in 18.612s
+2023-01-07 22:45:36,265 - 	PSNR noisy 46.4189dB, PSNR result 35.5625dB
+2023-01-07 22:45:37,061 - 	Denoised 5 frames in 0.641s, loaded seq in 18.602s
+2023-01-07 22:45:37,061 - 	PSNR noisy 49.9317dB, PSNR result 37.9361dB
+2023-01-07 22:45:37,845 - 	Denoised 5 frames in 0.629s, loaded seq in 18.617s
+2023-01-07 22:45:37,845 - 	PSNR noisy 49.9028dB, PSNR result 37.9118dB
+2023-01-07 22:45:38,624 - 	Denoised 5 frames in 0.596s, loaded seq in 18.605s
+2023-01-07 22:45:38,624 - 	PSNR noisy 49.9368dB, PSNR result 37.9390dB
+2023-01-07 22:45:39,311 - 	Denoised 5 frames in 0.557s, loaded seq in 18.609s
+2023-01-07 22:45:39,311 - 	PSNR noisy 45.0683dB, PSNR result 34.4108dB
+2023-01-07 22:45:41,139 - 	Denoised 5 frames in 0.637s, loaded seq in 18.615s
+2023-01-07 22:45:41,140 - 	PSNR noisy 14.2483dB, PSNR result 14.3065dB
+2023-01-07 22:45:41,944 - 	Denoised 5 frames in 0.681s, loaded seq in 18.616s
+2023-01-07 22:45:41,944 - 	PSNR noisy 46.3289dB, PSNR result 36.2683dB
+2023-01-07 22:45:42,718 - 	Denoised 5 frames in 0.591s, loaded seq in 18.583s
+2023-01-07 22:45:42,718 - 	PSNR noisy 46.3334dB, PSNR result 36.2720dB
+2023-01-07 22:45:43,739 - 	Denoised 5 frames in 0.788s, loaded seq in 18.560s
+2023-01-07 22:45:43,739 - 	PSNR noisy 10.0660dB, PSNR result 10.1133dB
+2023-01-07 22:45:44,578 - 	Denoised 5 frames in 0.580s, loaded seq in 18.570s
+2023-01-07 22:45:44,578 - 	PSNR noisy 45.1702dB, PSNR result 36.0392dB
+2023-01-07 22:45:45,230 - 	Denoised 5 frames in 0.501s, loaded seq in 18.608s
+2023-01-07 22:45:45,230 - 	PSNR noisy 11.2108dB, PSNR result 11.2475dB
+2023-01-07 22:45:45,875 - 	Denoised 5 frames in 0.505s, loaded seq in 18.620s
+2023-01-07 22:45:45,876 - 	PSNR noisy 16.7427dB, PSNR result 16.8021dB
+2023-01-07 22:45:46,798 - 	Denoised 5 frames in 0.795s, loaded seq in 18.619s
+2023-01-07 22:45:46,798 - 	PSNR noisy 21.5063dB, PSNR result 21.7088dB
+2023-01-07 22:45:47,695 - 	Denoised 5 frames in 0.757s, loaded seq in 18.597s
+2023-01-07 22:45:49,155 - 	PSNR noisy 13.2619dB, PSNR result 13.2971dB
+2023-01-07 22:45:52,282 - 	Denoised 5 frames in 3.014s, loaded seq in 18.618s
+2023-01-07 22:45:53,497 - 	PSNR noisy 13.2207dB, PSNR result 13.2492dB
