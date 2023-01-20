@@ -12,11 +12,12 @@ The FPRN for defending the black box attack can be found here -> https://www.you
 
 ## Dependency
 
-- [ROS](http://wiki.ros.org/ROS/Installation)
-- [Anaconda]
-- [pytorch]
-- [Airsim]
-- [Unreal Engine]
+- Ubuntu 18.04
+- [ROS melodic](http://wiki.ros.org/ROS/Installation)
+- [Anaconda](https://www.anaconda.com/products/distribution#linux)
+- [pytorch](https://pytorch.org/get-started/locally/)
+- [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/)
+- [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
   ```
   wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
   cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
