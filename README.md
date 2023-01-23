@@ -42,7 +42,6 @@ catkin_make
 ```
 conda activate ros_env
 source ~/catkin_ws/devel/setup.bash
-
 ```
 
 
