@@ -12,20 +12,16 @@ The FPRN for defending the black box attack can be found here -> https://www.you
 
 ## Dependency
 
-- Ubuntu 18.04
+- [Ubuntu 18.04](https://releases.ubuntu.com/18.04/)
 - [ROS melodic](http://wiki.ros.org/ROS/Installation)
 - [Anaconda](https://www.anaconda.com/products/distribution#linux)
 - [pytorch](https://pytorch.org/get-started/locally/)
 - [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/)
 - [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
-  ```
-  wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
-  cd ~/Downloads/ && unzip gtsam.zip -d ~/Downloads/
-  cd ~/Downloads/gtsam-4.0.0-alpha2/
-  mkdir build && cd build
-  cmake ..
-  sudo make install
-  ```
+```
+cd fastdvdnet
+pip install -r requirements.txt
+```
 
 ## Compile
 
@@ -42,13 +38,17 @@ catkin_make
 
 ## Run the package
 
-1. Run the launch file:
+1. Activate the ros environment:
 ```
-roslaunch lego_loam run.launch
+conda activate ros_env
+source ~/catkin_ws/devel/setup.bash
+
 ```
 
 
-2. Play existing bag files:
+2. Run the launch file:
 ```
-rosbag play *.bag --clock --topic /velodyne_points /imu/data
+roslaunch tcps_image_attack autoflight.launch # object tracking to move demo
+roslaunch tcps_image_attack train.launch # attack the object localization  
+roslaunch tcps_image_attack train_denoiser.launch # object tracking to move when attack exist
 ```
