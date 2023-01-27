@@ -44,22 +44,22 @@ conda activate ros_env
 ```
 
 
-2: Download the file.
+2. Download the file.
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git
+git clone git@github.com:haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo.git
 cd ..
 catkin_make
 ```
 
-Source the file before running the launch package.
+3.  Source the file before running the launch package.
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
 
 
-3. Run the launch file:
+4. Run the launch file:
 ```
 roslaunch tcps_image_attack autoflight.launch # object tracking to move demo
 roslaunch tcps_image_attack train.launch # attack the object localization  
