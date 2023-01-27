@@ -41,11 +41,25 @@ catkin_make
 1. Activate the ros environment:
 ```
 conda activate ros_env
+```
+
+
+2: Download the file.
+
+```
+cd ~/catkin_ws/src
+git clone https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git
+cd ..
+catkin_make
+```
+
+Source the file before running the launch package.
+```
 source ~/catkin_ws/devel/setup.bash
 ```
 
 
-2. Run the launch file:
+3. Run the launch file:
 ```
 roslaunch tcps_image_attack autoflight.launch # object tracking to move demo
 roslaunch tcps_image_attack train.launch # attack the object localization  
