@@ -19,7 +19,7 @@ The FPRN for defending the black box attack can be found here -> https://www.you
 - [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/)
 - [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
 
-Please follow the tutorial in to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
+Please follow the tutorial in Wiki to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
 
 
 
