@@ -32,6 +32,8 @@ cd ~/catkin_ws/src
 git clone https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git
 cd ..
 
+```
+
 Install the dependent software of the FPRN
 
 ```
