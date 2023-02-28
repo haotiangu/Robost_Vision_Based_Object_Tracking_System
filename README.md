@@ -25,7 +25,7 @@ Please follow the tutorial in Wiki to configure the [simulation environment](htt
 
 ## Compile
 
-You can use the following commands to download and compile the package.
+You can use the following commands to download and install the software.
 
 ```
 cd ~/catkin_ws/src
@@ -62,16 +62,27 @@ conda activate ros_env
 cd ~/catkin_ws/src
 git clone git@github.com:haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo.git
 cd ..
+```
+3. Install the dependent software of the fastdvdnet
+
+```
+cd fastdvdnet
+pip install -r requirements.txt
+```
+
+
+
+```
 catkin_make
 ```
 
-3.  Source the file before running the launch package.
+4.  Source the file before running the launch package.
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
 
 
-4. Run the launch file:
+5. Run the launch file:
 ```
 roslaunch tcps_image_attack autoflight.launch # object tracking to move demo
 roslaunch tcps_image_attack train.launch # attack the object localization  
