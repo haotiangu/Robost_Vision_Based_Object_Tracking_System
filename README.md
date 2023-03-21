@@ -23,32 +23,10 @@ Please follow the tutorial in Wiki to configure the [simulation environment](htt
 
 
 
-## Compile
-
-You can use the following commands to download and install the software.
-
-```
-cd ~/catkin_ws/src
-git clone https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git
-cd ..
-
-```
-
-Install the dependent software of the FPRN
-
-```
-cd fastdvdnet
-pip install -r requirements.txt
-```
-
-Compile the package
-```
-catkin_make
-```
 
 
 
-## Run the package
+## Compile and Run the package
 
 1. Activate the ros environment:
 ```
