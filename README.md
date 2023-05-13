@@ -1,4 +1,4 @@
-# Robost Vision Based Object Tracking System Demo
+# Robust Vision Based Object Tracking System Demo
 
 
 This repository contains code for defending the black box attack for autonomous driving or flight. We embedded an attacker which attack the object localization part of the CNN object detecter. A FPRN proposed by us also has been embedded inside the package to defend this attack. The proposed FPRN make sure the vision based object tracking to move system perform normally even under the random black box attack.
