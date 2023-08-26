@@ -1,11 +1,3 @@
-# Robust Vision Based Object Tracking System Demo
-
-
-This repository contains code for defending the black box attack for autonomous driving or flight. We embedded an attacker which attack the object localization part of the CNN object detecter. A FPRN proposed by us also has been embedded inside the package to defend this attack. The proposed FPRN make sure the vision based object tracking to move system perform normally even under the random black box attack.
-
-
-
-
 # TANGO-ESRGAN
 
 **TANGO-ESRGAN** is developed to defend against the white-box attack of vision based object tracking system. It contains the online image restoration CNN TANGO-ESRGAN, the real-time object detection and localization CNN(YOLO 5.6.1), and the object tracking to move controller. 
