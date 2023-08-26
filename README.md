@@ -61,19 +61,7 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 * [Updates](#7-updates)
 * [Known issues](#known-issues)
 
-## Dependency
 
-- [Ubuntu 18.04](https://releases.ubuntu.com/18.04/)
-- [ROS melodic](http://wiki.ros.org/ROS/Installation)
-- [Anaconda](https://www.anaconda.com/products/distribution#linux)
-- [Pytorch](https://pytorch.org/get-started/locally/)
-- [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/)
-- [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
-- [Nvidia Driver 495.29.05](https://www.nvidia.com/download/driverResults.aspx/181159/en-us/)
-- [CUDA 11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive)
-- [CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive)
-
-Please follow the tutorial in Wiki to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
 
 ## 1. Quick Start
 
@@ -125,8 +113,20 @@ roslaunch tcps_image_attack train_w_car.launch # attack the object localization
 roslaunch tcps_image_attack train_denoiser_car.launch # object tracking to move when attack exist
 ```
 
+## 2. Dependency
 
-## 2. Algorithms and Papers
+* [Ubuntu 18.04](https://releases.ubuntu.com/18.04/)
+* [ROS melodic](http://wiki.ros.org/ROS/Installation)
+* [Anaconda](https://www.anaconda.com/products/distribution#linux)
+* [Pytorch](https://pytorch.org/get-started/locally/)
+* [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/)
+* [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
+* [Nvidia Driver 495.29.05](https://www.nvidia.com/download/driverResults.aspx/181159/en-us/)
+* [CUDA 11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive)
+* [CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive)
+
+Please follow the tutorial in Wiki to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
+## 3. Algorithms and Papers
 
 The project contains a collection of robust and computationally efficient algorithms for quadrotor fast flight:
 * Kinodynamic path searching
@@ -157,7 +157,7 @@ All planning algorithms along with other key modules, such as mapping, are imple
 Besides the folder __fast_planner__, a lightweight __uav_simulator__ is used for testing.
 
 
-## 3. Setup and Config
+## 4. Setup and Config
 
 ### Prerequisites
 
@@ -205,7 +205,7 @@ To enable the GPU depth rendering, set ENABLE_CUDA to true, and also remember to
 ``` 
 For installation of CUDA, please go to [CUDA ToolKit](https://developer.nvidia.com/cuda-toolkit)
 
-## 4. Run Simulations
+## 5. Run Simulations
 
 Run [Rviz](http://wiki.ros.org/rviz) with our configuration firstly:
 
@@ -267,7 +267,7 @@ Related algorithms are detailed in [this paper](https://arxiv.org/abs/1912.12644
 The code will be released after the publication of [associated paper](https://arxiv.org/abs/2007.03465).
 
 
-## 5. Use in Your Application
+## 6. Use in Your Application
 
 If you have successfully run the simulation and want to use __Fast-Planner__ in your project,
 please explore the files kino_replan.launch or topo_replan.launch.
@@ -280,7 +280,7 @@ If you use depth images with lower resolution (like 256x144), you might disable 
 Finally, for setup problem, like compilation error caused by different versions of ROS/Eigen, please first refer to existing __issues__, __pull request__, and __Google__ before raising a new issue. Insignificant issue will receive no reply.
 
 
-## 6. Updates
+## 7. Updates
 
 - __Oct 20, 2020__: Fast-Planner is extended and applied to fast autonomous exploration. Check this [repo](https://github.com/HKUST-Aerial-Robotics/FUEL) for more details.
   
