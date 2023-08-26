@@ -4,9 +4,6 @@
 This repository contains code for defending the black box attack for autonomous driving or flight. We embedded an attacker which attack the object localization part of the CNN object detecter. A FPRN proposed by us also has been embedded inside the package to defend this attack. The proposed FPRN make sure the vision based object tracking to move system perform normally even under the random black box attack.
 
 
-Autoflight for tracking an detected object to move can be found here -> https://www.youtube.com/watch?v=E_bgRGCXYG4
-Online image attack simulaiton video can be found here -> https://www.youtube.com/watch?v=mLpQ3nOqwrU
-The FPRN for defending the black box attack can be found here -> https://www.youtube.com/watch?v=MOgg8s-5LVc
 
 
 # TANGO-ESRGAN
@@ -35,9 +32,11 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
 </p>
 
 Complete videos: 
-[video1](https://www.youtube.com/watch?v=NvR8Lq2pmPg&feature=emb_logo),
-[video2](https://www.youtube.com/watch?v=YcEaFTjs-a0), 
-[video3](https://www.youtube.com/watch?v=toGhoGYyoAY). 
+[video1 Autoflight For Tracking an Detected Object To Move](https://www.youtube.com/watch?v=E_bgRGCXYG4),
+[video2 Online Image Attack Simulation Video]([https://www.youtube.com/watch?v=YcEaFTjs-a0](https://www.youtube.com/watch?v=mLpQ3nOqwrU)), 
+[video3 The TANGO-ESRGAN to Defend the Adaptive White Box Attack]([https://www.youtube.com/watch?v=toGhoGYyoAY](https://www.youtube.com/watch?v=MOgg8s-5LVc)). 
+
+
 Demonstrations about this work have been reported on the ICRA 2023: [page1](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-nasa-lemur-robot), [page2](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-india-space-humanoid-robot),
 [page3](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-soft-exoskeleton-glove-extra-thumb) (search for _HKUST_ in the pages).
 
@@ -68,7 +67,7 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 
 Activate the ros environment:
 ```
-conda activate ros_env
+  conda activate ros_env
 ```
 
 The project has been tested on Ubuntu 18.04(ROS Melodic). Take Ubuntu 18.04 as an example, run the following commands to setup:
@@ -81,8 +80,8 @@ The project has been tested on Ubuntu 18.04(ROS Melodic). Take Ubuntu 18.04 as a
 Install the dependent software of the TANGO-ESRGAN and YOLO 5.6.1
 
 ```
-cd fastdvdnet
-pip install -r requirements.txt
+  cd fastdvdnet
+  pip install -r requirements.txt
 ```
 
 Compliling them:
@@ -104,13 +103,13 @@ run a dynamic object tracking demo:
 
 Run the online adaptive white-box attack of static object tracking case and its corresponding defencing algorithm:
 ```
-roslaunch tcps_image_attack train.launch # attack the object localization  
-roslaunch tcps_image_attack train_denoiser.launch # object tracking to move when attack exist
+  roslaunch tcps_image_attack train.launch # attack the object localization  
+  roslaunch tcps_image_attack train_denoiser.launch # object tracking to move when attack exist
 ```
 Run the online adaptive white-box attack of dynamic object tracking case and its corresponding defencing algorithm:
 ```
-roslaunch tcps_image_attack train_w_car.launch # attack the object localization  
-roslaunch tcps_image_attack train_denoiser_car.launch # object tracking to move when attack exist
+  roslaunch tcps_image_attack train_w_car.launch # attack the object localization  
+  roslaunch tcps_image_attack train_denoiser_car.launch # object tracking to move when attack exist
 ```
 
 ## 2. Dependency
