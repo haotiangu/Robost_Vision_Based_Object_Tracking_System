@@ -25,8 +25,8 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
 
 Complete videos: 
 [video1](https://www.youtube.com/watch?v=E_bgRGCXYG4),
-[video2]([https://www.youtube.com/watch?v=YcEaFTjs-a0](https://www.youtube.com/watch?v=mLpQ3nOqwrU)), 
-[video3]([https://www.youtube.com/watch?v=toGhoGYyoAY](https://www.youtube.com/watch?v=MOgg8s-5LVc)). 
+[video2](https://www.youtube.com/watch?v=mLpQ3nOqwrU), 
+[video3](https://www.youtube.com/watch?v=MOgg8s-5LVc). 
 Video 1 is for Autoflight For Tracking an Detected Object To Move. Video 2 is for Online Image Attack Simulation.Video 3 is the TANGO-ESRGAN to Defend the Adaptive White Box Attack.
 
 Demonstrations about this work have been reported on the ICRA 2023: [page1](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-nasa-lemur-robot), [page2](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-india-space-humanoid-robot),
