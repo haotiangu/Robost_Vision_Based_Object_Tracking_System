@@ -4,9 +4,9 @@
 
 **News**: 
 
-- __Mar 13, 2021__: Code for fast autonomous exploration is available now! Check this [repo](https://github.com/HKUST-Aerial-Robotics/FUEL) for more details.
+- __Aug 15, 2023__: Code for fast autonomous exploration is available now! Check this [repo](https://github.com/HKUST-Aerial-Robotics/FUEL) for more details.
 
-- __Oct 20, 2020__: Fast-Planner is extended and applied to fast autonomous exploration. Check this [repo](https://github.com/HKUST-Aerial-Robotics/FUEL) for more details.
+- __Oct 20, 2022__: Multi-level Adaptive Safety Control Framework to assist the end to end automatical landing process for fixed wing type UAV. Check this [repo](https://github.com/SASLabStevens/MASC-Architecture) for more details.
 
 __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](https://www.stevens.edu/profile/hjafarne) from the [SIT Safe Autonomous System Lab](https://saslabstevens.github.io/).
 <!-- - __B-spline trajectory optimization guided by topological paths__:
