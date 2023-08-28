@@ -117,7 +117,7 @@ These methods are detailed in our papers listed below.
 Please cite at least one of our papers if you use this project in your research: [Bibtex](files/bib.txt).
 
 - [__Multi-level Adaptation for Automatic Landing with Engine Failure under Turbulent Weather__](https://arxiv.org/abs/2209.04132?context=eess), Haotian Gu and Hamid Jafarnejad Sani, AIAA, 2022.
-- [__TANGO-ESRGAN__](https://arxiv.org/abs/1912.12644), Haotian Gu and Hamid Jafarnejad Sani, IEEE International Conference on Robotics and Automation (__ICRA__), 2023.
+- [__TANGO-ESRGAN__](), Haotian Gu and Hamid Jafarnejad Sani, IEEE International Conference on Robotics and Automation (__ICRA__), 2023.
 
 
 
