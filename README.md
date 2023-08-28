@@ -29,8 +29,7 @@ Complete videos:
 [video3](https://www.youtube.com/watch?v=MOgg8s-5LVc). 
 Video 1 is for Autoflight For Tracking an Detected Object To Move. Video 2 is for Online Image Attack Simulation.Video 3 is the TANGO-ESRGAN to Defend the Adaptive White Box Attack.
 
-Demonstrations about this work have been reported on the ICRA 2023: [page1](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-nasa-lemur-robot), [page2](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-india-space-humanoid-robot),
-[page3](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-soft-exoskeleton-glove-extra-thumb) (search for _HKUST_ in the pages).
+Demonstrations about this work have been reported on the ICRA 2023: [page1](), [page2](),[page3]().
 
 To run this project in minutes, check [Quick Start](#1-Quick-Start). Check other sections for more detailed information.
 
@@ -44,12 +43,11 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 ## Table of Contents
 
 * [Quick Start](#1-Quick-Start)
-* [Dependency](#2-Dependency)
-* [Algorithms and Papers](#3-Algorithms-and-Papers)
-* [Setup and Config](#4-Setup-and-Config)
-* [Run Simulations](#5-run-simulations)
-* [Use in Your Application](#6-use-in-your-application)
-* [Updates](#7-updates)
+* [Algorithms and Papers](#2-Algorithms-and-Papers)
+* [Setup and Config](#3-Setup-and-Config)
+* [Run Simulations](#4-run-simulations)
+* [Use in Your Application](#5-use-in-your-application)
+* [Updates](#6-updates)
 * [Known issues](#known-issues)
 
 
@@ -104,20 +102,9 @@ Run the online adaptive white-box attack of dynamic object tracking case and its
   roslaunch tcps_image_attack train_denoiser_car.launch # object tracking to move when attack exist
 ```
 
-## 2. Dependency
-
-* [Ubuntu 18.04](https://releases.ubuntu.com/18.04/)
-* [ROS melodic](http://wiki.ros.org/ROS/Installation)
-* [Anaconda](https://www.anaconda.com/products/distribution#linux)
-* [Pytorch](https://pytorch.org/get-started/locally/)
-* [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/)
-* [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
-* [Nvidia Driver 495.29.05](https://www.nvidia.com/download/driverResults.aspx/181159/en-us/)
-* [CUDA 11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive)
-* [CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive)
 
 Please follow the tutorial in Wiki to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
-## 3. Algorithms and Papers
+## 2. Algorithms and Papers
 
 The project contains a collection of robust and computationally efficient algorithms for quadrotor fast flight:
 * Kinodynamic path searching
@@ -148,16 +135,14 @@ All planning algorithms along with other key modules, such as mapping, are imple
 Besides the folder __fast_planner__, a lightweight __uav_simulator__ is used for testing.
 
 
-## 4. Setup and Config
+## 3. Setup and Config
 
 ### Prerequisites
 
-1. Our software is developed and tested in Ubuntu 16.04(ROS Kinetic) and 18.04(ROS Melodic). Follow the documents to install [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) or [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) according to your Ubuntu version.
+1. Our software is developed and tested in Ubuntu 18.04(ROS Melodic). Follow the documents to install [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) according to your Ubuntu version.
    
-2. We use [**NLopt**](https://nlopt.readthedocs.io/en/latest/NLopt_Installation) to solve the non-linear optimization problem. The __uav_simulator__ depends on the C++ linear algebra library __Armadillo__. The two dependencies can be installed by the following command, in which `${ROS_VERSION_NAME}` is the name of your ROS release.
-``` 
-sudo apt-get install libarmadillo-dev ros_${ROS_VERSION_NAME}_nlopt
-```
+2. The proposed TANGO-ESRGAN and Robust Vision Based Object Tracking Framework Depend [Anaconda](https://www.anaconda.com/products/distribution#linux), [Pytorch](https://pytorch.org/get-started/locally/)
+Simulator we use [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/) and [Unreal Engine 4.27.1](https://github.com/EpicGames/UnrealEngine). To configure the machine learning environment, please follow WiKi to install [Nvidia Driver 495.29.05](https://www.nvidia.com/download/driverResults.aspx/181159/en-us/), [CUDA 11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive) and[CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive).
 
 
 
@@ -196,7 +181,7 @@ To enable the GPU depth rendering, set ENABLE_CUDA to true, and also remember to
 ``` 
 For installation of CUDA, please go to [CUDA ToolKit](https://developer.nvidia.com/cuda-toolkit)
 
-## 5. Run Simulations
+## 4. Run Simulations
 
 Run [Rviz](http://wiki.ros.org/rviz) with our configuration firstly:
 
@@ -258,76 +243,35 @@ Related algorithms are detailed in [this paper](https://arxiv.org/abs/1912.12644
 The code will be released after the publication of [associated paper](https://arxiv.org/abs/2007.03465).
 
 
-## 6. Use in Your Application
+## 5. Use in Your Application
 
-If you have successfully run the simulation and want to use __Fast-Planner__ in your project,
-please explore the files kino_replan.launch or topo_replan.launch.
+If you have successfully run the simulation and want to use TANGO-ESRGAN and robust vision based object tracking framework in your project,
+please explore the code files.
 Important parameters that may be changed in your usage are contained and documented.
 
-Note that in our configuration, the size of depth image is 640x480. 
-For higher map fusion efficiency we do downsampling (in kino_algorithm.xml, skip_pixel = 2).
-If you use depth images with lower resolution (like 256x144), you might disable the downsampling by setting skip_pixel = 1. Also, the _depth_scaling_factor_ is set to 1000, which may need to be changed according to your device.
 
 Finally, for setup problem, like compilation error caused by different versions of ROS/Eigen, please first refer to existing __issues__, __pull request__, and __Google__ before raising a new issue. Insignificant issue will receive no reply.
 
 
-## 7. Updates
+## 6. Updates
 
-- __Oct 20, 2020__: Fast-Planner is extended and applied to fast autonomous exploration. Check this [repo](https://github.com/HKUST-Aerial-Robotics/FUEL) for more details.
+- __Oct 20, 2022__:
   
-- __July 5, 2020__: We will release the implementation of paper: _RAPTOR: Robust and Perception-aware Trajectory Replanning for Quadrotor Fast Flight_ (submitted to TRO, under review) in the future.
+- __April 12, 2023__: 
 
-- __April 12, 2020__: The implementation of the ICRA2020 paper: _Robust Real-time UAV Replanning Using Guided Gradient-based Optimization and Topological Paths_ is available.
+- __July 5, 2023__: 
 
-- __Jan 30, 2020__: The volumetric mapping is integrated with our planner. It takes in depth image and camera pose pairs as input, do raycasting to fuse the measurements, and build a Euclidean signed distance field (ESDF) for the planning module.
+- __Jan 30, 2024__: 
 
 ## Known issues
 
-### Compilation issue
-
-When running this project on Ubuntu 20.04, C++14 is required. Please add the following line in all CMakelists.txt files:
-
-```
-set(CMAKE_CXX_STANDARD 14)
-```
-
 ### Unexpected crash
 
-If the planner dies after triggering a 2D Nav Goal, it is possibly caused by the ros-nlopt library. In this case, we recommend to uninstall it and [install nlopt following the official document](https://nlopt.readthedocs.io/en/latest/NLopt_Installation/). Then in the [CMakeLists.txt of bspline_opt package](https://github.com/HKUST-Aerial-Robotics/FUEL/blob/main/fuel_planner/bspline_opt/CMakeLists.txt), change the associated lines to link the nlopt library:
-
-```
-find_package(NLopt REQUIRED)
-set(NLopt_INCLUDE_DIRS ${NLOPT_INCLUDE_DIR})
-
-...
-
-include_directories( 
-    SYSTEM 
-    include 
-    ${catkin_INCLUDE_DIRS}
-    ${Eigen3_INCLUDE_DIRS} 
-    ${PCL_INCLUDE_DIRS}
-    ${NLOPT_INCLUDE_DIR}
-)
-
-...
-
-add_library( bspline_opt 
-    src/bspline_optimizer.cpp 
-    )
-target_link_libraries( bspline_opt
-    ${catkin_LIBRARIES} 
-    ${NLOPT_LIBRARIES}
-    # /usr/local/lib/libnlopt.so
-    )  
-
-```
 
 ## Acknowledgements
-  We use **NLopt** for non-linear optimization.
 
 ## Licence
-The source code is released under [GPLv3](http://www.gnu.org/licenses/) license.
+The source code is released under license.
 
 
 ## Disclaimer
