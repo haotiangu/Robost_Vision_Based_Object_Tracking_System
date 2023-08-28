@@ -116,9 +116,9 @@ These methods are detailed in our papers listed below.
 
 Please cite at least one of our papers if you use this project in your research: [Bibtex](files/bib.txt).
 
-- [__Robust and Efficient Quadrotor Trajectory Generation for Fast Autonomous Flight__](https://ieeexplore.ieee.org/document/8758904), Boyu Zhou, Fei Gao, Luqi Wang, Chuhao Liu and Shaojie Shen, IEEE Robotics and Automation Letters (**RA-L**), 2019.
-- [__Robust Real-time UAV Replanning Using Guided Gradient-based Optimization and Topological Paths__](https://arxiv.org/abs/1912.12644), Boyu Zhou, Fei Gao, Jie Pan and Shaojie Shen, IEEE International Conference on Robotics and Automation (__ICRA__), 2020.
-- [__RAPTOR: Robust and Perception-aware Trajectory Replanning for Quadrotor Fast Flight__](https://arxiv.org/abs/2007.03465), Boyu Zhou, Jie Pan, Fei Gao and Shaojie Shen, IEEE Transactions on Robotics (__T-RO__). 
+- [__Multi-level Adaptation for Automatic Landing with Engine Failure under Turbulent Weather__](https://arxiv.org/abs/2209.04132?context=eess), Haotian Gu and Hamid Jafarnejad Sani, AIAA, 2022.
+- [__TANGO-ESRGAN__](https://arxiv.org/abs/1912.12644), Haotian Gu and Hamid Jafarnejad Sani, IEEE International Conference on Robotics and Automation (__ICRA__), 2023.
+
 
 
 All planning algorithms along with other key modules, such as mapping, are implemented in __fast_planner__:
@@ -142,7 +142,7 @@ Besides the folder __fast_planner__, a lightweight __uav_simulator__ is used for
 1. Our software is developed and tested in Ubuntu 18.04(ROS Melodic). Follow the documents to install [Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) according to your Ubuntu version.
    
 2. The proposed TANGO-ESRGAN and Robust Vision Based Object Tracking Framework Depend [Anaconda](https://www.anaconda.com/products/distribution#linux), [Pytorch](https://pytorch.org/get-started/locally/)
-Simulator we use [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/) and [Unreal Engine 4.27.1](https://github.com/EpicGames/UnrealEngine). To configure the machine learning environment, please follow WiKi to install [Nvidia Driver 495.29.05](https://www.nvidia.com/download/driverResults.aspx/181159/en-us/), [CUDA 11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive) and[CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive).
+Simulator we use [Airsim](https://microsoft.github.io/AirSim/airsim_ros_pkgs/) and [Unreal Engine 4.27.1](https://github.com/EpicGames/UnrealEngine). To configure the machine learning environment, please follow WiKi to install [Nvidia Driver 495.29.05](https://www.nvidia.com/download/driverResults.aspx/181159/en-us/), [CUDA 11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive) and [CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive).
 
 
 
