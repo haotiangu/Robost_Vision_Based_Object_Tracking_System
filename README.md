@@ -17,7 +17,7 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
 
 <p align="center">
   <img src="files/autoflight.gif" width = "400" height = "225"/>
-  <img src="files/raptor2.gif" width = "400" height = "225"/>
+  <img src="files/Online_image_attack.gif" width = "400" height = "225"/>
   <img src="files/icra20_2.gif" width = "400" height = "225"/>
   <img src="files/ral19_2.gif" width = "400" height = "225"/>
   <!-- <img src="files/icra20_1.gif" width = "320" height = "180"/> -->
