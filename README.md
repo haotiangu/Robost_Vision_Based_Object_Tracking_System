@@ -64,7 +64,7 @@ The project has been tested on Ubuntu 18.04(ROS Melodic). Take Ubuntu 18.04 as a
 
 ```
   cd ${YOUR_WORKSPACE_PATH}/src
-  git clone https://github.com/HKUST-Aerial-Robotics/Fast-Planner.git
+  git clone https://github.com/Robotics/TANGO-ESRGAN.git
 ```
 
 Install the dependent software of the TANGO-ESRGAN and YOLO 5.6.1
@@ -121,7 +121,7 @@ Please cite at least one of our papers if you use this project in your research:
 
 
 
-All planning algorithms along with other key modules, such as mapping, are implemented in __fast_planner__:
+All planning algorithms along with other key modules, such as object detection CNN, real-time white-box defender and tracking controller, are implemented in __Robust_Vision_Based_Object_Tracking_Framework__:
 
 - __plan_env__: The online mapping algorithms. It takes in depth image (or point cloud) and camera pose (odometry) pairs as input, do raycasting to update a probabilistic volumetric map, and build an Euclidean signed distance filed (ESDF) for the planning system. 
 - __path_searching__: Front-end path searching algorithms. 
@@ -152,7 +152,7 @@ After the prerequisites are satisfied, you can clone this repository to your cat
 
 ```
   cd ${YOUR_WORKSPACE_PATH}/src
-  git clone https://github.com/HKUST-Aerial-Robotics/Fast-Planner.git
+  git clone https://github.com/Robotics/TANGO-ESRGAN.git
   cd ../
   catkin_make
 ```
