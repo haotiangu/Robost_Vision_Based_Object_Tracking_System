@@ -106,7 +106,7 @@ Run the online adaptive white-box attack of dynamic object tracking case and its
 Please follow the tutorial in Wiki to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
 ## 2. Algorithms and Papers
 
-The project contains a collection of robust and computationally efficient algorithms for quadrotor fast flight:
+The project contains a collection of robust and computationally efficient algorithms for object tracking to move:
 * Kinodynamic path searching
 * B-spline-based trajectory optimization
 * Topological path searching and path-guided optimization
@@ -247,7 +247,7 @@ please explore the code files.
 Important parameters that may be changed in your usage are contained and documented.
 
 
-Finally, for setup problem, like compilation error caused by different versions of ROS/Eigen, please first refer to existing __issues__, __pull request__, and __Google__ before raising a new issue. Insignificant issue will receive no reply.
+Finally, for setup problem, like compilation error cause by software version, please first refer to existing __issues__, __pull request__, and __Google__ before raising a new issue. Insignificant issue will receive no reply.
 
 
 ## 6. Updates
