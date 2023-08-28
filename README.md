@@ -123,15 +123,12 @@ Please cite at least one of our papers if you use this project in your research:
 
 All planning algorithms along with other key modules, such as object detection CNN, real-time white-box defender and tracking controller, are implemented in __Robust_Vision_Based_Object_Tracking_Framework__:
 
-- __plan_env__: The online mapping algorithms. It takes in depth image (or point cloud) and camera pose (odometry) pairs as input, do raycasting to update a probabilistic volumetric map, and build an Euclidean signed distance filed (ESDF) for the planning system. 
-- __path_searching__: Front-end path searching algorithms. 
-  Currently it includes a kinodynamic path searching that respects the dynamics of quadrotors.
-  It also contains a sampling-based topological path searching algorithm to generate multiple topologically distinctive paths that capture the structure of the 3D environments. 
+- __adaptive_white_box_attacker__: The GAN functions based reinforcement learning agent as an online image generator is trained to misguide the vehicle according to the adversary’s objective. 
+- __object_detector__: conduct the real-time object detection and localization in camera coordinate system(yolo 5.6.1). The detection outcome is post-processed into the list of bounding box coordinates (center, width, height) of the detected object sorted by the confidence of detection.
+- __adaptive_white_box_defender__: TANGO-ESRGAN defend against the white-box attack in a vision-based object tracking system. This TANGO-ESRGAN is developed based on the Real-ESRGAN, a general state of art video and image restoration algorithm to reconstruct the high-resolution image for detector to label and localize the detected object with high confidence.
+- __object_tracking_controller__:  Given the estimated target object by the object detector, the autonomous guidance system uses the tracking controller to keep the bounding box of the target at the center of the camera view and the size of the bounding box within a range.
 - __bspline__: A implementation of the B-spline-based trajectory representation.
 - __bspline_opt__: The gradient-based trajectory optimization using B-spline trajectory.
-- __active_perception__: Perception-aware planning strategy, which enable to quadrotor to actively observe and avoid unknown obstacles, to appear in the future.
-- __plan_manage__: High-level modules that schedule and call the mapping and planning algorithms. Interfaces for launching the whole system, as well as the configuration files are contained here.
-
 Besides the folder __fast_planner__, a lightweight __uav_simulator__ is used for testing.
 
 
