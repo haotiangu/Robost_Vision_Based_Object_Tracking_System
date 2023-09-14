@@ -16,10 +16,10 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
 </p> -->
 
 <p align="center">
-  <img src="files/image_attack_denoiser.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
   <img src="files/Online_image_attack.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
-  <img src="files/ral19_2.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
-  <img src="files/ral19_2.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
+  <img src="files/image_attack_denoiser.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
+  <img src="files/driving_attack.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
+  <img src="files/driving_denoiser.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
   <!-- <img src="files/icra20_1.gif" width = "320" height = "180"/> -->
 </p>
 
