@@ -1,6 +1,6 @@
 # TANGO-ESRGAN
 
-**TANGO-ESRGAN** is developed to defend against the white-box attack of vision based object tracking system. It contains the online image restoration CNN TANGO-ESRGAN, the real-time object detection and localization CNN(YOLO 5.6.1), and the object tracking to move controller. 
+**TANGO-ESRGAN** is developed to defend against the white-box attack in vision based object tracking system. It contains the online image restoration CNN TANGO-ESRGAN, the real-time object detection and localization CNN(YOLO 5.6.1), and the object tracking to move controller. 
 
 **News**: 
 
