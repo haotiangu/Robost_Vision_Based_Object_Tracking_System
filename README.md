@@ -117,7 +117,7 @@ These methods are detailed in our papers listed below.
 Please cite at least one of our papers if you use this project in your research: [Bibtex](files/bib.txt).
 
 - [__Multi-level Adaptation for Automatic Landing with Engine Failure under Turbulent Weather__](https://arxiv.org/abs/2209.04132?context=eess), Haotian Gu and Hamid Jafarnejad Sani, AIAA, 2022.
-- [__TANGO-ESRGAN__](), Haotian Gu and Hamid Jafarnejad Sani, IEEE International Conference on Robotics and Automation (__ICRA__), 2023.
+- [__TANGO-ESRGAN__](), Haotian Gu and Hamid Jafarnejad Sani, IEEE International Conference on Robotics and Automation (__ICRA__), 2024.
 
 
 
@@ -129,7 +129,7 @@ All planning algorithms along with other key modules, such as object detection C
 - __object_tracking_controller__:  Given the estimated target object by the object detector, the autonomous guidance system uses the tracking controller to keep the bounding box of the target at the center of the camera view and the size of the bounding box within a range.
 - __bspline__: A implementation of the B-spline-based trajectory representation.
 - __bspline_opt__: The gradient-based trajectory optimization using B-spline trajectory.
-Besides the folder __fast_planner__, a lightweight __uav_simulator__ is used for testing.
+
 
 
 ## 3. Setup and Config
@@ -158,59 +158,8 @@ If you encounter problems in this step, please first refer to existing __issues_
 
 Now you are ready to [run a simulation](#4-run-simulations).
 
-### Use GPU Depth Rendering (can be skipped optionally)
 
-This step is not mandatory for running the simulations. However, if you want to run the more realistic depth camera in __uav_simulator__, installation of [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) is needed. Otherwise, a less realistic depth sensor model will be used.
 
- The **local_sensing** package in __uav_simulator__ has the option of using GPU or CPU to render the depth sensor measurement. By default, it is set to CPU version in CMakeLists:
- 
- ```
- set(ENABLE_CUDA false)
- # set(ENABLE_CUDA true)
- ```
-However, we STRONGLY recommend the GPU version, because it generates depth images more like a real depth camera.
-To enable the GPU depth rendering, set ENABLE_CUDA to true, and also remember to change the 'arch' and 'code' flags according to your graphics card devices. You can check the right code [here](https://github.com/tpruvot/ccminer/wiki/Compatibility).
-
-```
-    set(CUDA_NVCC_FLAGS 
-      -gencode arch=compute_61,code=sm_61;
-    ) 
-``` 
-For installation of CUDA, please go to [CUDA ToolKit](https://developer.nvidia.com/cuda-toolkit)
-
-## 4. Run Simulations
-
-Run [Rviz](http://wiki.ros.org/rviz) with our configuration firstly:
-
-```
-  <!-- go to your workspace and run: -->
-  source devel/setup.bash
-  roslaunch plan_manage rviz.launch
-```
-
-Then run the quadrotor simulator and __Fast-Planner__. 
-Several examples are provided below:
-
-### Kinodynamic Path Searching & B-spline Optimization
-
-In this method, a kinodynamic path searching finds a safe, dynamically feasible, and minimum-time initial trajectory in the discretized control space. 
-Then the smoothness and clearance of the trajectory are improved by a B-spline optimization.
-To test this method, run:
-
-```
-  <!-- open a new terminal, go to your workspace and run: -->
-  source devel/setup.bash
-  roslaunch plan_manage kino_replan.launch
-```
-
-Normally, you will find the randomly generated map and the drone model in ```Rviz```. At this time, you can trigger the planner using the ```2D Nav Goal``` tool. When a point is clicked in ```Rviz```, a new trajectory will be generated immediately and executed by the drone. A sample is displayed below:
-
-<!-- add some gif here -->
- <p id="demo1" align="center">
-  <img src="files/ral19_3.gif" width = "480" height = "270"/>
- </p>
-
-Related algorithms are detailed in [this paper](https://ieeexplore.ieee.org/document/8758904).
 
 
 
@@ -240,7 +189,7 @@ Related algorithms are detailed in [this paper](https://arxiv.org/abs/1912.12644
 The code will be released after the publication of [associated paper](https://arxiv.org/abs/2007.03465).
 
 
-## 5. Use in Your Application
+## 4. Use in Your Application
 
 If you have successfully run the simulation and want to use TANGO-ESRGAN and robust vision based object tracking framework in your project,
 please explore the code files.
@@ -250,7 +199,7 @@ Important parameters that may be changed in your usage are contained and documen
 Finally, for setup problem, like compilation error cause by software version, please first refer to existing __issues__, __pull request__, and __Google__ before raising a new issue. Insignificant issue will receive no reply.
 
 
-## 6. Updates
+## 5. Updates
 
 - __Oct 20, 2022__:
   
