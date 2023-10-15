@@ -1,5 +1,5 @@
 # Robost_Vision_Based_Object_Tracking_System
-**TANGO-ESRGAN** is developed to defend against the white-box attack of vision based object tracking system. It contains the online image restoration CNN TANGO-ESRGAN, the real-time object detection and localization CNN(YOLO 5.6.1), and the object tracking to move controller. 
+**TANGO-ESRGAN** is developed to defend against the white-box attack of vision based object tracking system. It contains the online image restoration CNN TANGO-ESRGAN, the real-time object detection and localization CNN(YOLO 5.6.1), and the object tracking to move controller. Our method, which is a computationally efficient denoiser based on Real-ESRGAN, shows several desirable properties for real-time implementation on autonomous systems such as self-driving cars and aerial drones, including faster runtime, lower computational load, higher peak signal-to-noise ratio (PSNR) value for the reconstructed image, improved image resolution and the adaptability to handle a large range of perturbation levels with a fixed network model. Robost_Vision_Based_Object_Tracking_System is TANGO-ESRGAN based framework.
 
 **News**: 
 
