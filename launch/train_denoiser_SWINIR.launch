@@ -1,0 +1,19 @@
+<launch>
+    <param name="name" value="yoon"/>
+    <node pkg="tcps_image_attack" type="node_airsim.py" name="airsim_node" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_yolo_denoised.py" name="node_yolo_denoised" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_controller.py" name="controller_node" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_image_attack_trainer.py" name="image_attack_train_node" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_image_attacker.py" name="image_attack_node" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_highlevel_decision_maker.py" name="high_level_decision_maker" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_highlevel_decision_trainer.py" name="high_level_decision_trainer" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_SWINIR.py" name="SWINIR_node" output="screen">
+    </node>
+</launch>

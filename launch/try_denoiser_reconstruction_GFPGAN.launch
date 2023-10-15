@@ -1,0 +1,11 @@
+<launch>
+    <param name="name" value="yoon"/>
+    <node pkg="tcps_image_attack" type="node_airsim.py" name="airsim_node" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_yolo_test_reconstruction.py" name="node_yolo_denoised" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_controller.py" name="controller_node" output="screen">
+    </node>
+    <node pkg="tcps_image_attack" type="node_tangoesrgan.py" name="tangoesrgan_node" output="screen">
+    </node>
+</launch>
