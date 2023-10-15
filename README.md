@@ -44,7 +44,7 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 * [Known issues](#known-issues)
 
 ## 1. Quick Start
-Before starting, we recommend you to 
+Before starting, we recommend you to follow wiki to configure the simulation environment.
 Activate the ros environment:
 ```
   conda activate ros_env
