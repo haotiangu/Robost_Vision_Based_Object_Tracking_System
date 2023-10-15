@@ -1,15 +1,19 @@
 # Robost_Vision_Based_Object_Tracking_System
-# TANGO-ESRGAN
 **TANGO-ESRGAN** is developed to defend against the white-box attack of vision based object tracking system. It contains the online image restoration CNN TANGO-ESRGAN, the real-time object detection and localization CNN(YOLO 5.6.1), and the object tracking to move controller. 
+
 **News**: 
+
 - __Aug 15, 2023__: Code for fast autonomous exploration is available now! Check this [repo](https://github.com/HKUST-Aerial-Robotics/FUEL) for more details.
 - __Oct 20, 2022__: Multi-level Adaptive Safety Control Framework to assist the end to end automatical landing process for fixed wing type UAV. Check this [repo](https://github.com/SASLabStevens/MASC-Architecture) for more details.
+
 __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](https://www.stevens.edu/profile/hjafarne) from the [SIT Safe Autonomous System Lab](https://saslabstevens.github.io/).
+
 <!-- - __B-spline trajectory optimization guided by topological paths__:
 <p align="center">
   <img src="https://github.com/HKUST-Aerial-Robotics/TopoTraj/blob/master/files/icra20_1.gif" width = "420" height = "237"/>
   <img src="https://github.com/HKUST-Aerial-Robotics/TopoTraj/blob/master/files/icra20_2.gif" width = "420" height = "237"/>
 </p> -->
+
 <p align="center">
   <img src="files/autoflight.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
   <img src="files/image_attack_denoiser.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
@@ -17,10 +21,12 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
   <img src="files/ral19_2.gif" width = "400" height = "225" alt="Alt text" title="Optional title"/>
   <!-- <img src="files/icra20_1.gif" width = "320" height = "180"/> -->
 </p>
+
 Complete videos: 
 [video1](https://www.youtube.com/watch?v=E_bgRGCXYG4),
 [video2](https://www.youtube.com/watch?v=mLpQ3nOqwrU), 
 [video3](https://www.youtube.com/watch?v=MOgg8s-5LVc). 
+
 Video 1 is for Autoflight For Tracking an Detected Object To Move. Video 2 is for Online Image Attack Simulation.Video 3 is the TANGO-ESRGAN to Defend the Adaptive White Box Attack.
 Demonstrations about this work have been reported on the ICRA 2023: [page1](), [page2](),[page3]().
 To run this project in minutes, check [Quick Start](#1-Quick-Start). Check other sections for more detailed information.
