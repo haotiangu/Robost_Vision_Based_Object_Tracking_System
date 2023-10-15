@@ -44,7 +44,7 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 * [Known issues](#known-issues)
 
 ## 1. Quick Start
-Before starting, we recommend you to follow wiki to configure the simulation environment.
+Before starting, we recommend you to follow [wiki](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment) to configure the simulation environment.
 Activate the ros environment:
 ```
   conda activate ros_env
