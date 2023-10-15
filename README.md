@@ -94,7 +94,7 @@ run a dynamic object tracking demo:
 Run the online adaptive white-box attack of static object tracking case and its corresponding defencing algorithm:
 ```
   roslaunch tcps_image_attack train.launch # attack the object localization  
-  roslaunch tcps_image_attack train_denoiser.launch # object tracking to move when attack exist
+  roslaunch tcps_image_attack train_denoiser_tangoesrgan.launch # object tracking to move when attack exist
 ```
 Run the online adaptive white-box attack of dynamic object tracking case and its corresponding defencing algorithm:
 ```
