@@ -24,12 +24,8 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
 </p>
 
 
-Complete videos: 
-[video1](https://www.youtube.com/watch?v=E_bgRGCXYG4),
-[video2](https://www.youtube.com/watch?v=mLpQ3nOqwrU), 
-[video3](https://www.youtube.com/watch?v=MOgg8s-5LVc). 
-Video 1 is for Autoflight For Tracking an Detected Object To Move. Video 2 is for Online Image Attack Simulation.Video 3 is the TANGO-ESRGAN to Defend the Adaptive White Box Attack.
-Demonstrations about this work have been reported on the ICRA 2023: [page1](), [page2](),[page3]().
+Left column represent the attacked dynamic and static object tracking system. Right column represents the test result of TANGO-ESRGAN embedded robust object tracking system. Please click the video introdection [here](https://www.youtube.com/watch?v=AeSy51E6A5Q): 
+Demonstrations about this work have been reported on the ICRA 2024: [page1](), [page2](),[page3]().
 To run this project in minutes, check [Quick Start](#1-Quick-Start). Check other sections for more detailed information.
 Please kindly star :star: this project if it helps you. We take great efforts to develope and maintain it :grin::grin:.
 
