@@ -48,7 +48,7 @@ Activate the ros environment:
 The project has been tested on Ubuntu 18.04(ROS Melodic). Take Ubuntu 18.04 as an example, run the following commands to setup:
 ```
   cd ${YOUR_WORKSPACE_PATH}/src
-  git clone https://github.com/Robotics/TANGO-ESRGAN.git
+  git clone https://github.com/haotiangu/Robust_Vision_Based_Object_Tracking_System.git
 ```
 Install the dependent software of the TANGO-ESRGAN and YOLO 5.6.1
 ```
