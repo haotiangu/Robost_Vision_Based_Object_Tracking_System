@@ -20,10 +20,10 @@ class ImageAttackNetwork(nn.Module):
         self.encoder = nn.Sequential(
             nn.Conv2d(3, 32, 12, stride=5), nn.BatchNorm2d(32), nn.ReLU(),
             nn.Conv2d(32, 64, 8, stride=4), nn.BatchNorm2d(64), nn.ReLU(),
-            nn.Conv2d(64, 32, 4, stride=2), nn.BatchNorm2d(32), nn.ReLU(),
-            nn.Conv2d(32, 16, 3, stride=1), nn.BatchNorm2d(16), nn.ReLU(),
+            #nn.Conv2d(64, 32, 4, stride=2), nn.BatchNorm2d(32), nn.ReLU(),
+            #nn.Conv2d(32, 16, 3, stride=1), nn.BatchNorm2d(16), nn.ReLU(),
             nn.Flatten(),
-            nn.Linear(784, self.encoding_dim)  #<--- 784 is hard-coded as dependent on 448 x 448 x 3.
+            nn.Linear(28224, self.encoding_dim)  #<--- 784 is hard-coded as dependent on 448 x 448 x 3.
         )
 
         # self.decoder = nn.Sequential(
@@ -48,12 +48,12 @@ class ImageAttackNetwork(nn.Module):
             # input is Z, going into a convolutionc
             nn.ConvTranspose2d( self.encoding_dim + self.action_dim, ngf * 8, 4, 1, 0, bias=False),
             nn.BatchNorm2d(ngf * 8), nn.ReLU(True),
-            nn.ConvTranspose2d(ngf * 8, ngf * 8, 5, 2, 1, bias=False),
-            nn.BatchNorm2d(ngf * 8), nn.ReLU(True),
+            #nn.ConvTranspose2d(ngf * 8, ngf * 8, 5, 2, 1, bias=False),
+            #nn.BatchNorm2d(ngf * 8), nn.ReLU(True),
             nn.ConvTranspose2d(ngf * 8, ngf * 4, 5, 2, 1, bias=False),
             nn.BatchNorm2d(ngf * 4), nn.ReLU(True),
-            nn.ConvTranspose2d( ngf * 4, ngf * 4, 4, 2, 1, bias=False),
-            nn.BatchNorm2d(ngf * 4), nn.ReLU(True),
+            #nn.ConvTranspose2d( ngf * 4, ngf * 4, 4, 2, 1, bias=False),
+            #nn.BatchNorm2d(ngf * 4), nn.ReLU(True),
             nn.ConvTranspose2d( ngf * 4, ngf * 2, 4, 2, 1, bias=False),
             nn.BatchNorm2d(ngf * 2), nn.ReLU(True),
             nn.ConvTranspose2d( ngf * 2, ngf, 7, 3, 1, bias=False),
