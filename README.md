@@ -41,6 +41,34 @@ Please kindly star :star: this project if it helps you. We take great efforts to
 
 ## 1. Quick Start
 Before starting, we recommend you to follow [wiki](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment) to configure the simulation environment.
+
+Create a [ROS environment](https://www.google.com/search?q=how+to+let+ros+melodic+work+well+under+anaconda&client=ubuntu&hs=vjf&channel=fs&ei=E5C8YtrOHoy4tQaYvIuwBg&ved=0ahUKEwiapLbrm9P4AhUMXM0KHRjeAmYQ4dUDCA0&uact=5&oq=how+to+let+ros+melodic+work+well+under+anaconda&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQnhFYlhpgmiJoAnABeACAAZUBiAHZBZIBAzUuM5gBAKABAcgBCMABAQ&sclient=gws-wiz#fpstate=ive&vld=cid:6eb2b2cd,vid:EMF20z-gT5s,st:0) for python 3.9 [on anaconda.](https://www.youtube.com/watch?v=EMF20z-gT5s). The python3.9 based ros_env is to guarantee that yolo5.6.1 can work.
+```
+
+conda create -n ros_env python=3.9 anaconda
+
+pip3 install -U rospy
+
+pip3 install -U rospkg
+```
+
+**configure the yolo environment**
+```
+
+pip install torchvision==0.10.1
+
+pip install setuptools==59.5.0
+```
+
+**To solve the error => the image can not be retrieved!**
+
+`pip3 install msgpack-rpc-python`
+`pip3 install airsim==1.6.0`
+
+So far, most launch file in our package can be implemented in AirSim and ROS. 
+
+
+
 Activate the ros environment:
 ```
   conda activate ros_env
