@@ -44,26 +44,30 @@ Before starting, we recommend you to follow [wiki](https://github.com/haotiangu/
 
 Create a [ROS environment](https://www.google.com/search?q=how+to+let+ros+melodic+work+well+under+anaconda&client=ubuntu&hs=vjf&channel=fs&ei=E5C8YtrOHoy4tQaYvIuwBg&ved=0ahUKEwiapLbrm9P4AhUMXM0KHRjeAmYQ4dUDCA0&uact=5&oq=how+to+let+ros+melodic+work+well+under+anaconda&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQnhFYlhpgmiJoAnABeACAAZUBiAHZBZIBAzUuM5gBAKABAcgBCMABAQ&sclient=gws-wiz#fpstate=ive&vld=cid:6eb2b2cd,vid:EMF20z-gT5s,st:0) for python 3.9 [on anaconda.](https://www.youtube.com/watch?v=EMF20z-gT5s). The python3.9 based ros_env is to guarantee that yolo5.6.1 can work.
 ```
+  conda create -n ros_env python=3.9 anaconda
 
-conda create -n ros_env python=3.9 anaconda
+  pip3 install -U rospy
 
-pip3 install -U rospy
-
-pip3 install -U rospkg
+  pip3 install -U rospkg
 ```
 
 **configure the yolo environment**
 ```
+  cd '${YOUR_WORKSPACE_PATH}/src/tcps_image_attack/scripts/models'
 
-pip install torchvision==0.10.1
+  pip3 install -r requirements.txt
 
-pip install setuptools==59.5.0
+  (optional)pip install torchvision==0.10.1
+
+  (optional)pip install setuptools==59.5.0
 ```
 
 **To solve the error => the image can not be retrieved!**
+```
+  pip3 install msgpack-rpc-python
 
-`pip3 install msgpack-rpc-python`
-`pip3 install airsim==1.6.0`
+  pip3 install airsim==1.6.0
+```
 
 So far, most launch file in our package can be implemented in AirSim and ROS. 
 
@@ -81,7 +85,7 @@ The project has been tested on Ubuntu 18.04(ROS Melodic). Take Ubuntu 18.04 as a
 Install the dependent software of the TANGO-ESRGAN and YOLO 5.6.1
 ```
   cd fastdvdnet
-  pip install -r requirements.txt
+  pip3 install -r requirements.txt
 ```
 Compliling them:
 ```
