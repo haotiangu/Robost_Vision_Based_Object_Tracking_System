@@ -49,6 +49,10 @@ Create a [ROS environment](https://www.google.com/search?q=how+to+let+ros+melodi
   pip3 install -U rospy
 
   pip3 install -U rospkg
+
+  pip3 install msgpack-rpc-python
+
+  pip3 install airsim==1.6.0
 ```
 
 **configure the yolo environment**
@@ -62,12 +66,6 @@ Create a [ROS environment](https://www.google.com/search?q=how+to+let+ros+melodi
   (optional)pip install setuptools==59.5.0
 ```
 
-**To solve the error => the image can not be retrieved!**
-```
-  pip3 install msgpack-rpc-python
-
-  pip3 install airsim==1.6.0
-```
 
 So far, most launch file in our package can be implemented in AirSim and ROS. 
 
