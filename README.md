@@ -46,7 +46,6 @@ Create a [ROS environment](https://www.google.com/search?q=how+to+let+ros+melodi
 **create a ros environment for python3.9**
 ```
   conda create -n ros_env python=3.9
-
 ```
 
 **configure the yolo environment**
