@@ -99,13 +99,13 @@ run a dynamic object tracking demo:
 ```
 Run the online adaptive white-box attack of static object tracking case and its corresponding defencing algorithm:
 ```
-  roslaunch tcps_image_attack train.launch # attack the object localization  
-  roslaunch tcps_image_attack train_denoiser_tangoesrgan.launch # object tracking to move when attack exist
+  source devel/setup.bash && roslaunch tcps_image_attack train.launch # attack the object localization  
+  source devel/setup.bash && roslaunch tcps_image_attack train_denoiser_tangoesrgan.launch # object tracking to move when attack exist
 ```
 Run the online adaptive white-box attack of dynamic object tracking case and its corresponding defencing algorithm:
 ```
-  roslaunch tcps_image_attack train_w_car.launch # attack the object localization  
-  roslaunch tcps_image_attack train_denoiser_car.launch # object tracking to move when attack exist
+  source devel/setup.bash && roslaunch tcps_image_attack train_w_car.launch # attack the object localization  
+  source devel/setup.bash && roslaunch tcps_image_attack train_denoiser_car.launch # object tracking to move when attack exist
 ```
 Please follow the tutorial in Wiki to configure the [simulation environment](https://github.com/haotiangu/Robost_Vision_Based_Object_Tracking_System_Demo/wiki/The-General-Configuring-Tutorial-of-The-Simulation-Environment).
 
