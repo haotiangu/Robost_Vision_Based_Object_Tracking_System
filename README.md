@@ -25,7 +25,6 @@ __Authors__: [Haotian Gu](http://sysu-star.com) and [Hamid Jafarnejad Sani](http
 
 
 Left column represent the attacked dynamic and static object tracking system. Right column represents the test result of TANGO-ESRGAN embedded robust object tracking system. Please click the video introdection [here](https://www.youtube.com/watch?v=AeSy51E6A5Q): 
-Demonstrations about this work have been reported on the ICRA 2024: [page1](), [page2](),[page3]().
 To run this project in minutes, check [Quick Start](#1-Quick-Start). Check other sections for more detailed information.
 Please kindly star :star: this project if it helps you. We take great efforts to develope and maintain it :grin::grin:.
 
